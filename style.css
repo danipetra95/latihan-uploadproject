@@ -1,0 +1,123 @@
+body {
+    font-family: 'Comic Sans MS', 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*Background warna berbeda di tiap halaman */
+.welcome {
+    margin-top: 20%;
+    min-height: 100vh; /* vh = viewport height, jadi tinggi 1 layar penuh */
+    background: linear-gradient(to bottom right, #ffb6c1, #ffe4e1);
+    background-repeat: no-repeat; /* biar gradien tidak diulang */
+    background-attachment: fixed; /* biar gradien diam saat di-scroll */
+    background-size: cover; /* biar menutupi seluruh layar */
+}
+.main {
+    background: linear-gradient(to bottom right, #a0e7e5, #b4f8c8);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.intro {
+    background: linear-gradient(to bottom right, #fce38a, #f38181);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*Welcome Page */
+.box {
+    background-color: white;
+    padding: 30px;
+    margin: 100px auto;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* 🌟 Teks */
+h1 {
+    color: #ff69b4;
+}
+h2 {
+    color: #ff7f50;
+}
+p {
+    color: #444;
+}
+
+/* 💖 Tombol */
+.btn {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+/* ✨ Hover effect wajib */
+.btn:hover {
+    background-color: #ff42f2;
+    transform: scale(1.1) rotate(5deg);
+    transition: 0.3s;
+}
+
+/* 🎀 Tabel */
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(54, 54, 54, 0.43);
+}
+th {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+}
+img {
+    border-radius: 50%;
+    transition: 0.3s;
+}
+img:hover {
+    transform: scale(1.1) rotate(1deg);
+}
+
+/* ✨ Marquee */
+marquee {
+    background-color: #fff3cd;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px auto;
+    width: 70%;
+    color: #856404;
+}
+
+
+ul, ol {
+    list-style-position: inside; /* Bullet dan angka pindah ke dalam area teks */
+    text-align: center;          /* Biar teks dan bullet sejajar di tengah */
+    padding-left: 0;             /* Hilangkan padding bawaan */
+    margin: 10px auto;           /* Otomatis ke tengah */
+    display: inline-block;       /* Biar tampak rapi saat di tengah */
+}
+
+video{
+    border-radius: 5px;
+}
+
+
+
+
